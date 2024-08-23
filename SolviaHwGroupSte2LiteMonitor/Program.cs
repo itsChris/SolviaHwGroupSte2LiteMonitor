@@ -28,7 +28,7 @@ namespace XmlToSqlite
                     Console.WriteLine($"Error: {ex.Message}");
                 }
 
-                await Task.Delay(5000); // Wait for 1 second
+                await Task.Delay(5000); 
             }
         }
 
